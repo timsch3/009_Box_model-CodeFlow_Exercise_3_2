@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body {
+    margin: 0;
+    background: white;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+}
+
+/* Link style: button */
+section:first-of-type > figure a:link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid white;
+}
+
+section:first-of-type > figure a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Link style: underlined */
+section:first-of-type > nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+section:first-of-type > nav a:hover {
+    color: lightgrey;
+    text-decoration: underline;
+}
+
+/* First section (with background image) */
+section:first-of-type {
+    background: center/cover url(../img/jungle.jpg) no-repeat;
+    padding: 0 5vw;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 20px;
+    font-family: Fredericka the Great, cursive;
+    font-size: 1.8em;
+}
+
+section:first-of-type > figure {
+    width: 20%;
+    margin: 10% auto;
+}
+
+section:first-of-type > h1 {
+    font-size: 2.2em;
+    text-align: left;
+}
+
+section:first-of-type > figure p {
+    padding-bottom: 10px;
+}
+
+section:first-of-type > nav {
+    text-align: right;
+    list-style: none;
+    line-height: 2em;
+    padding-bottom: 5%;
+}
+
+/* Second section (description) */
+section:nth-of-type(2) {
+    color: black;   
+    width: 33%;
+    margin: 0 auto;
+}
+
+section:nth-of-type(2) > h1 {
+    padding: 5% 0;
+}
+
+section:nth-of-type(2) > p {
+    margin: 0;
+}
+
+section:nth-of-type(2) > figure {
+    
+}
