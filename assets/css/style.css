@@ -45,6 +45,7 @@ section:nth-of-type(2) a:hover {
 /* First section (with background image) */
 section:first-of-type {
     background: center/cover url(../img/jungle.jpg) no-repeat;
+    height: 100vh;
     padding: 0 5vw;
     text-align: center;
 }
